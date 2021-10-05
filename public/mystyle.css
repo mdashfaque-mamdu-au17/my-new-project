@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main--container {
+  margin: 200px auto;
+}
+
+ul {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

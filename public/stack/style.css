@@ -1,0 +1,22 @@
+.main {
+  max-width: 60%;
+  margin: auto;
+  margin-top: 150px;
+  position: relative;
+}
+
+.home-btn {
+  position: absolute;
+  top: 0;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  background-color: cyan;
+  border: 1px solid red;
+  padding: 7px 15px;
+}
+
+.home-btn:hover {
+  background-color: #ff097c;
+  color: #fff;
+}

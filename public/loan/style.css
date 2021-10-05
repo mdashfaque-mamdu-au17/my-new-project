@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 97vh;
+  background-color: teal;
+  position: relative;
+}
+
+.main {
+  text-align: center;
+  background-color: #ff097c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+input {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.InputBox {
+  color: white;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+span {
+  color: rgb(251, 255, 0);
+}
+
+.home-btn {
+  position: absolute;
+  top: 15px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid red;
+  padding: 7px 15px;
+}
+
+.home-btn:hover {
+  background-color: #ff097c;
+}
